@@ -26,6 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+
 Yuchen Zheng is an HCI researcher, designer, and computational artist based in Melbourne, Australia. She is currently pursuing her Ph.D. at the [Exertion Games Lab](https://exertiongameslab.org/), Monash University, under the supervision of [Prof. Florian ‘Floyd’ Mueller](https://research.monash.edu/en/persons/floyd-mueller/). Her work sits at the intersection of multisensory interaction and extended reality (XR), with current research investigating how XR technologies can enrich and transform food and restaurant experiences.
 
 
