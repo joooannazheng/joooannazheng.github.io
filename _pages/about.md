@@ -29,6 +29,6 @@ latest_posts:
 Yuchen Zheng is an HCI researcher, designer, and computational artist based in Melbourne, Australia. She is currently pursuing her Ph.D. at the [Exertion Games Lab](https://exertiongameslab.org/), Monash University, under the supervision of [Prof. Florian ‘Floyd’ Mueller](https://research.monash.edu/en/persons/floyd-mueller/). Her work sits at the intersection of multisensory interaction and extended reality (XR), with current research investigating how XR technologies can enrich and transform food and restaurant experiences.
 
 
-#Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.>
 
-#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.>
