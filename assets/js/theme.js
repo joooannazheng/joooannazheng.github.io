@@ -3,12 +3,13 @@
 // Toggle through light, dark, and system theme settings. Jo removed light mode.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
+
   if (themeSetting == "system") {
+    setThemeSetting("light");
+  } else if (themeSetting == "light") {
     setThemeSetting("dark");
-  } else if (themeSetting == "dark") {
-    setThemeSetting("system");
   } else {
-    setThemeSetting("dark");
+    setThemeSetting("system");
   }
 };
 
