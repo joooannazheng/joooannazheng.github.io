@@ -1,14 +1,14 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light, dark, and system theme settings.
+// Toggle through light, dark, and system theme settings. Jo removed light mode.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
-    setThemeSetting("light");
-  } else if (themeSetting == "light") {
     setThemeSetting("dark");
-  } else {
+  } else if (themeSetting == "dark") {
     setThemeSetting("system");
+  } else {
+    setThemeSetting("dark");
   }
 };
 
