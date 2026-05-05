@@ -19,15 +19,15 @@ body.theme-luka *::after {
 }
 
 :root {
-  --luka-bg: #faf9f7;
-  --luka-text: #3d3929;
-  --luka-accent: #c2714f;
-  --luka-secondary: #8c8577;
-  --luka-border: rgba(194, 113, 79, 0.2);
-  --luka-shadow: rgba(194, 113, 79, 0.15);
+  --luka-bg: #f0f5f6;           /* 原来 #faf9f7 */
+  --luka-text: #1e2d45;         /* 偏深蓝的黑，原来 #3d3929 */
+  --luka-accent: #395887;       /* 原来 #c2714f */
+  --luka-secondary: #729798;    /* 原来 #8c8577 */
+  --luka-border: rgba(57, 88, 135, 0.2);
+  --luka-shadow: rgba(57, 88, 135, 0.15);
   --luka-social-bg: #ffffff;
-  --luka-social-text: #8b7355;
-  --luka-footer-border: rgba(194, 113, 79, 0.15);
+  --luka-social-text: #395887;  /* 原来 #8b7355 */
+  --luka-footer-border: rgba(57, 88, 135, 0.15);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,7 +47,7 @@ body.theme-luka *::after {
 [data-theme="dark"] {
   --luka-bg: #1a1917;
   --luka-text: #d1cec7;
-  --luka-accent: #e28a67;
+  --luka-accent: #7c5cbf;
   --luka-secondary: #9b9488;
   --luka-border: rgba(226, 138, 103, 0.2);
   --luka-shadow: rgba(0, 0, 0, 0.3);
@@ -57,15 +57,15 @@ body.theme-luka *::after {
 }
 
 [data-theme="light"] {
-  --luka-bg: #faf9f7;
-  --luka-text: #3d3929;
-  --luka-accent: #c2714f;
-  --luka-secondary: #8c8577;
-  --luka-border: rgba(194, 113, 79, 0.2);
-  --luka-shadow: rgba(194, 113, 79, 0.15);
-  --luka-social-bg: #ffffff;
-  --luka-social-text: #8b7355;
-  --luka-footer-border: rgba(194, 113, 79, 0.15);
+  --luka-bg: #ede6f5;
+  --luka-text: #2d1f4e;
+  --luka-accent: #7c5cbf;
+  --luka-secondary: #8b7aaa;
+  --luka-border: rgba(124, 92, 191, 0.2);
+  --luka-shadow: rgba(124, 92, 191, 0.15);
+  --luka-social-bg: #f7f0ff;
+  --luka-social-text: #7c5cbf;
+  --luka-footer-border: rgba(124, 92, 191, 0.15);
 }
 
 body.theme-luka {
@@ -111,8 +111,8 @@ body.theme-luka .nav-container {
 
 body.theme-luka .nav-left a {
   color: var(--luka-text);
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 body.theme-luka .theme-toggle {
@@ -174,7 +174,7 @@ body.theme-luka .image.avatar {
 body.theme-luka .image.avatar img {
   width: 220px;
   height: 220px;
-  border-radius: 50%;
+  border-radius: 16px; /* 原来是 "50%"（圆形），现在改成圆角矩形 */
   object-fit: cover;
   box-shadow: 0 6px 24px var(--luka-shadow);
 }
