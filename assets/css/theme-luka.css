@@ -402,7 +402,7 @@ body.theme-luka .pub-content .periodical {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
 }
 
 body.theme-luka .pub-content .links a {
