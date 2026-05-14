@@ -33,6 +33,7 @@ body.theme-luka *::after {
 body.theme-luka .pub-badge {
   display: inline-block;
   margin-left: 8px;
+  margin-bottom: 6px;
   padding: 2px 10px;
   border-radius: 999px;
   background: rgba(124, 92, 191, 0.12);
@@ -402,7 +403,7 @@ body.theme-luka .pub-content .periodical {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 body.theme-luka .pub-content .links a {
