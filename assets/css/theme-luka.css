@@ -399,6 +399,10 @@ body.theme-luka .pub-content .periodical {
   margin-bottom: 6px;
   color: var(--luka-accent);
   font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
 }
 
 body.theme-luka .pub-content .links a {
